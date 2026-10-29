@@ -1,0 +1,51 @@
+[0.030s] Invoking command in '/home/ganes/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ganes/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ganes/dev_ws/src/install/my_bot
+[1.140s] -- The C compiler identification is GNU 11.4.0
+[2.391s] -- The CXX compiler identification is GNU 11.4.0
+[2.980s] -- Detecting C compiler ABI info
+[3.258s] -- Detecting C compiler ABI info - done
+[3.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.311s] -- Detecting C compile features
+[3.312s] -- Detecting C compile features - done
+[3.319s] -- Detecting CXX compiler ABI info
+[3.577s] -- Detecting CXX compiler ABI info - done
+[3.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.583s] -- Detecting CXX compile features
+[3.583s] -- Detecting CXX compile features - done
+[3.651s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.795s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.941s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.051s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.057s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.058s] -- Added test 'lint_cmake' to check CMake code style
+[4.060s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.065s] -- Added test 'xmllint' to check XML markup files
+[4.068s] -- Configuring done
+[4.071s] -- Generating done
+[4.072s] -- Build files have been written to: /home/ganes/dev_ws/src/build/my_bot
+[4.075s] Invoked command in '/home/ganes/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ganes/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ganes/dev_ws/src/install/my_bot
+[4.077s] Invoking command in '/home/ganes/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ganes/dev_ws/src/build/my_bot -- -j4 -l4
+[4.109s] Invoked command in '/home/ganes/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ganes/dev_ws/src/build/my_bot -- -j4 -l4
+[4.119s] Invoking command in '/home/ganes/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ganes/dev_ws/src/build/my_bot
+[4.124s] -- Install configuration: ""
+[4.124s] -- Execute custom install script
+[4.125s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+[4.134s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[4.140s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[4.150s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/worlds/empty.world
+[4.157s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[4.166s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[4.173s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[4.182s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[4.189s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/environment/path.sh
+[4.197s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/environment/path.dsv
+[4.204s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/local_setup.bash
+[4.286s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/local_setup.sh
+[4.294s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/local_setup.zsh
+[4.301s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/local_setup.dsv
+[4.309s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/package.dsv
+[4.316s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[4.325s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[4.331s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[4.340s] -- Symlinking: /home/ganes/dev_ws/src/install/my_bot/share/my_bot/package.xml
+[4.348s] Invoked command in '/home/ganes/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ganes/dev_ws/src/build/my_bot
